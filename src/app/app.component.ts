@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  headingText = 'Exercise no.1 — Authors';
+  authors = [
+    'Douglas Adams',
+    'Steven King',
+    'William Sahkespeare',
+    'Carl Sagan'
+  ];
 }
